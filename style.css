@@ -1,0 +1,876 @@
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+.landing-page {
+    background-image: url(background\ main\ page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.menu-group {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.info-group {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.info-icon-text, .menu-links, .text-line {
+    display: flex;
+    align-items: center;
+}
+
+.link-info {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.header-line {
+    width: 90%;
+    border: 1.5px solid #1D1D1D;
+}
+
+.menu {
+    margin: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-top-links:hover {
+    color: #FF1615;
+    transition-duration: 1s;
+}
+
+.join-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FF1615;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: -11px;
+    width: 195px;
+    background-color: rgba(0,0,0,0);
+}
+
+.join-us-container:hover {
+    background-color: #FF1615;
+    color: rgba(0,0,0,0);
+    transition-duration: .5s;
+    transition-property: background-color;
+}
+
+.menu-bold {
+    font-weight: 600;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 125px;
+}
+
+.head-min {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.255em;
+    text-indent: 20px;
+    color: #FFFFFF;
+    line-height: 0;
+}
+
+.head-max {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 78px;
+    letter-spacing: 0.175em;
+    text-indent: 20px;
+    color: #FFFFFF;
+    line-height: 0;
+}
+
+.why-choose-us-section, .pricing-section {
+    background-image: url(backgr\ page\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-for-image-and-text, .numbers-container, .block-images-exercise, .open-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-second-page {
+    margin: 70px;
+}
+
+.group-text {
+    margin: 30px;
+}
+
+.red-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FF1615;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.title-for-information {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.information-text, .under-number-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.block-num, .title-text-exercise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.num {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 117px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.find-your-workout-section {
+    background-image: url(back\ find\ your\ workout.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.sm-title-with-lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.work-program-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-box {
+    margin: 10px;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: opacity(40%);
+}
+
+.stretching-img {
+    background-image: url(young-woman-stretching-gym-floor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-building-img {
+    background-image: url(shirtless-athletic-male-doing-biceps-workouts-with-one-dumbbell-grey-vignette-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:initial;
+}
+
+.boxing-img {
+    background-image: url(two-professional-boxer-boxing-black-smoky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.number-activity {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 117px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-align: center;
+    opacity: 0;
+}
+
+.activity {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+}
+
+.selected {
+    filter: opacity(100%);
+    border: 2px solid #FFFFFF;
+    margin-top: -20px;
+}
+
+.showText {
+    opacity: 1;
+}
+
+.exercise-section, .time-countdown-section {
+    background-image: url(back\ exercise.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nearby-title-text {
+    margin-top: -3em;
+    text-align: center;
+}
+
+.nearby-title {
+    margin-top: 0.1em;
+}
+
+.block-down {
+    margin-top: 100px;
+}
+
+.right-button {
+    margin-top: -130px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    margin: 20px;
+}
+
+.circle:hover {
+    border: 2px solid #FF1615;
+}
+
+.image-circle {
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.one-circle {
+    background-image: url(person-doing-indoor-cycling.jpg);
+}
+
+.two-circle {
+    background-image: url(young-afro-american-sports-man-with-beautiful-muscular-body-doing-pushup-exercise.jpg);
+}
+
+.three-circle {
+    background-image: url(young-fitness-man-studio.jpg);
+}
+
+.circle-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.circle-text {
+    text-align: center;
+}
+
+.title-in-red {
+    margin-bottom: -10px;
+}
+
+.big-text {
+    color: #FF1615;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.time-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.time-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-top: -50px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+}
+
+.review-section {
+    background-image: url(back\ for\ reviews.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-name-review {
+    display: flex;
+    align-items: center;
+}
+
+.fi-name-group {
+    margin: 10px;
+}
+
+.around-image-circle-review {
+    border-radius: 50%;
+    border: 1.5px solid #FFFFFF;
+}
+
+.review-group {
+    margin-left: 85px;
+}
+
+.review-padding {
+    padding: 70px;
+}
+
+.customers-title {
+    margin-left: 85px;
+    margin-top: -50px;
+}
+
+.image-circle-review {
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.circle-review-one {
+    background-image: url(young-adult-doing-indoor-sport-gym.jpg);
+}
+
+.circle-review-two {
+    background-image: url(beautiful-young-muscular-woman-gym-smiles-look-camera-woman-wearing-black-sportwear-concept-girl-power-concept-women-s-sports-workout-women-s-fitness-trainer.jpg);
+    background-position: center;
+}
+
+.circle-review-three {
+    background-image: url(handsome-man-exercising-gym.jpg);
+    background-position: center;
+}
+
+.fi-style {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.fiName {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: -15px;
+}
+
+.text-review {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.btn-spots-container {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-space {
+    margin: 3px;
+}
+
+.btn-spot-style {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.selectedButton {
+    background-color: #FF1615;
+}
+
+.selectedBorder {
+    border: 1px solid #FF1615;
+}
+
+.btn-spots-container-main {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.review-groupTwo, .review-groupThree {
+    display: none;
+}
+
+.ending-page {
+    background-image: url(end\ page\ backgr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-sign {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.red-text-big {
+    color: #FF1615;
+}
+
+.input-field-button {
+    display: flex;
+}
+
+.input-field {
+    width: 200px;
+    height: 44px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btn-send {
+    background-color: #FF1615;
+    border: none;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-line {
+    border: 1.5px solid #414141;
+    width: 90%
+}
+
+.footer-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+}
+
+.quick-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+}
+
+.address-container {
+    width: 18%;
+}
+
+.work-time-container-main {
+    width: 15%;
+}
+
+.logo-info {
+    margin-left: 70px;
+}
+
+.info-footer-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.divided-line {
+    width: 15%;
+    transform: rotate(90deg);
+    border: 1.5px solid #414141;
+}
+
+.links-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+li {
+    color: #FF1615;
+}
+
+.link-style {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.icon-red {
+    display: flex;
+    align-items: center;  
+    margin: 5px;
+}
+
+.links-title-address {
+    margin-top: -10px;
+}
+
+.links-title-hours {
+    margin-top: 25px;
+}
+
+.text-address {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.days-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.hours-work {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #747474;
+}
+
+.text-designed {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #747474;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+
+@media all and (max-width:800px) {
+    .landing-page {
+        background-position: center;
+    }
+    
+    .info-group, .header-line, .right-button {
+        display: none;
+    }
+
+    .menu-group, .container-for-image-and-text, .sign-up-container, .work-program-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-logo {
+        width: 120px;
+        height: 140px;
+        align-self: flex-start;
+    }
+
+    .menu {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .join-us-container {
+        width: 130px;
+        margin-top: 15px;
+        margin-left: 5px;
+        align-self: flex-start;
+    } 
+
+    .menu-bold {
+        margin-top: 18px;
+    }
+
+    .head-min {
+        font-size: 20px;
+    }
+
+    .head-max {
+        font-size: 35px;
+    }
+
+    .learnMore {
+        align-self: center;
+        width: 220px;
+    }
+
+    .open-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-for-information {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .information-text, .links-title-hours, .days-text, .hours-work {
+        text-align: center;
+    }
+
+    .time-block {
+        margin: -70px;
+    }
+
+    .numbers-container {
+        flex-direction: column;
+    }
+
+    .red-lines {
+        width: 100px;
+    }
+
+    .block-images-exercise {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .text-line {
+        justify-content: center;
+    }
+
+    .customers-title, .review-group {
+        margin-left: 0px;
+    }
+
+    .fiName, .fi-style {
+        font-size: 15px;
+    }
+
+    .text-review {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .image-name-review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-sign {
+        font-size: 30px;
+    }
+
+    .input-field-button {
+        margin-bottom: 20px;
+    }
+
+    .divided-line {
+        display: none;
+    }
+
+    .links-title-address {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .text-designed {
+        font-size: 7px;
+    }
+
+    .logo-footer {
+        width: 100px;
+        height: 120px;
+    }
+
+    .info-footer-text {
+        font-size: 7px;
+    }
+
+    .links-title-address {
+        margin-top: -45px;
+    }
+
+    .links-title-hours {
+        margin-top: -35px;
+    }
+}
+
+@media all and (max-width:500px) {
+    .price-img {
+        width: 300px;
+    }
+
+    .red-text {
+        font-size: 10px;
+        text-align: center;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .menu {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .join-us-container {
+        width: 80px;
+    } 
+
+    .header-logo {
+        width: 80px;
+        height: 100px;
+    }
+
+    .head-min, .red-text {
+        font-size: 12px;
+    }
+
+    .head-max {
+        font-size: 16px;
+    }
+
+    .title-sign {
+        font-size: 13px;
+    }
+
+    .input-field {
+        width: 150px;
+        height: 33px;
+        font-size: 20px;
+    }
+    
+    .btn-send {
+        width: 43px;
+        height: 43px;
+    }
+
+    .icon-send {
+        width: 25px;
+    }
+
+    .footer-main-container {
+        flex-direction: column;
+    }
+
+    .quick-links-container {
+        display: none;
+    }
+
+    .address-container, .work-time-container-main {
+        margin-top: 50px;
+        width: 50%;
+    }
+
+    .logo-info {
+        margin-left: 30px;
+    }
+}

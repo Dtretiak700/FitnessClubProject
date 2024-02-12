@@ -1,0 +1,115 @@
+body {
+    background-image: url(back\ find\ your\ workout.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+.find-your-workout-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group-text-image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.show-group {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    opacity: 0;
+}
+
+.show-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    text-transform: uppercase;
+    color: rgb(255,255,255,0.6);
+    margin-top: -150px;
+}
+
+.word {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: rgb(255,255,255,0.6);;
+    margin-top: -100px;
+}
+
+.right-text {
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    opacity: 0;
+}
+
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136.9%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+img {
+    margin: 10px;
+}
+
+.back-link {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-to-menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FF1615;
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media all and (max-width:800px) {
+    .group-text-image {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .group-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .text {
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
+@media all and (max-width:500px) {
+    img {
+        width: 400px;
+    }
+
+    .text {
+        font-size: 10px;
+    }
+}
